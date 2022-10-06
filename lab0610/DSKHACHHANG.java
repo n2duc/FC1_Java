@@ -13,7 +13,7 @@ public class DSKHACHHANG {
 		kh = new KHACHHANG[n];
 		
 		for(int i=0; i<n; i++) {
-			kh[i] = new KHACHHANG();
+			kh[i] = new KHACHHANG(){};
 		}
 	}
 	

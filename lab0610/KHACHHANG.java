@@ -2,7 +2,7 @@ package lab0610;
 
 import java.util.Scanner;
 
-public class KHACHHANG implements ITIENDIEN {
+public abstract class KHACHHANG implements ITIENDIEN {
 	protected String cusCode;
 	protected String cusName;
 	protected String dateTime;
