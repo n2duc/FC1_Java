@@ -1,17 +1,17 @@
-package shape;
+package Shape_IA;
 
 import java.util.Scanner;
 
-interface Shape {
-	public double chuvi();
-	public double dientich();
+interface ItfShape {
+	public double getPerimeter();
+	public double getArea();
 }
 
-public abstract class Hinh implements Shape {
+public abstract class Shape implements ItfShape {
 	protected String shapeId;
 	
-	public Hinh() {}
-	public Hinh(String shapdeId) {
+	public Shape() {}
+	public Shape(String shapdeId) {
 		this.shapeId = shapdeId;
 	}
 	public String getShapeID() {
@@ -20,12 +20,12 @@ public abstract class Hinh implements Shape {
 	public void setShapeID(String shapeId) {
 		this.shapeId = shapeId;
 	}
-	public void nhap() {
+	public void input() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Nhap ID Hinh: ");
+		System.out.println("Enter ID Shape: ");
 		shapeId = sc.nextLine();
 	}
-	public void in() {
+	public void display() {
 		System.out.println("ID Shape: " + shapeId);
 	}
 	@Override
