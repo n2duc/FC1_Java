@@ -42,7 +42,7 @@ public class hinhchunhat extends Hinh {
 	}
 	@Override
 	public String toString() {
-		return "hinhchunhat [dai=" + dai + ", rong=" + rong + ", Chu vi: " + chuvi() + ", Dien tich: " + dientich() + "]";
+		return "hinhchunhat [ " + super.toString() + ", dai=" + dai + ", rong=" + rong + ", Chu vi: " + chuvi() + ", Dien tich: " + dientich() + "]";
 	}
 	
 }

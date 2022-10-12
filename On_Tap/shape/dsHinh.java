@@ -40,6 +40,9 @@ public class dsHinh {
 			}
 		}
 	}
+	void suaHinh() {
+		
+	}
 	void xoaHinh() {
 		System.out.println("Nhap ID hinh muon xoa: ");
 		String tempId = sc.nextLine();

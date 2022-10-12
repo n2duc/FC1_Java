@@ -30,6 +30,6 @@ public abstract class Hinh implements Shape {
 	}
 	@Override
 	public String toString() {
-		return "Hinh [shapeId=" + shapeId + "]";
+		return "shapeId=" + shapeId;
 	}
 }

@@ -36,7 +36,7 @@ public class hinhtron extends Hinh {
 	}
 	@Override
 	public String toString() {
-		return "hinhtron [bk=" + bk + ", Chu vi: " + chuvi() + ", Dien tich: " + dientich() + "]";
+		return "hinhtron [ " + super.toString() + ", bk=" + bk + ", Chu vi: " + chuvi() + ", Dien tich: " + dientich() + "]";
 	}
 	
 }
